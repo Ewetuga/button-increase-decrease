@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .main , .main1{
+            display: flex;
+            line-height: 2.5rem;
+            font-size: 2.5rem;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+        }
+
+        .main1 button{
+            gap: 2rem;
+            padding: 0.67rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!--h1-->
+    <h1>Counter</h1>
+    <!--end of h1-->
+
+<!--main-->
+    <div class="main">
+0
+    </div>
+    <!--end of main-->
+
+    <!--main1-->
+<span class="main1">
+    <button class="btn increase">Increase</button>
+    <button class="btn reset">Reset</button>
+    <button class="btn decrease">Decrease</button>
+</span>
+    <!--end of main1-->
+
+    <!--script-->
+    <script src="index.js"></script>
+</body>
+</html>
